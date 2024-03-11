@@ -1,0 +1,13 @@
+.form-row{
+    position: relative;
+}
+.form-ele{
+    padding-top: 10%;
+    letter-spacing: 1px;
+    position: relative;
+    top:10%;
+}
+.form-section{
+    margin-left: 15%;
+    margin-bottom: 5%;
+}

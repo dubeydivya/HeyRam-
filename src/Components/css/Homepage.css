@@ -1,0 +1,106 @@
+.card-home {
+    position: relative;
+    top: 40%;
+    /* left: 15%; */
+}
+
+.title {
+    letter-spacing: 2px;
+    font-weight: 200;
+    font-style: normal;
+    font-size: large;
+    font-size: 1.3rem;
+
+}
+
+.title-gen {
+    letter-spacing: 5.5px;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.titl-p {
+    font-size: 15px;
+}
+
+.dark {
+    border-radius: 50px;
+}
+
+.z {
+    font-family: "Jost", sans-serif;
+    font-weight: 300;
+
+}
+
+.card-dig {
+    position: relative;
+    top: 30%;
+}
+
+.digital-row {
+    padding-top: 15%;
+    /* padding-bottom: 5%; */
+    position: static;
+    height: 100vh;
+    /* text-align: center; */
+    background:
+        /* top, transparent black, faked with gradient */
+        linear-gradient(rgba(0, 0, 0, 0.7),
+            rgba(0, 0, 0, 0.7)),
+        /* bottom, image */
+        url(https://images.pexels.com/photos/1169754/pexels-photo-1169754.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.explore {
+    font-size: large;
+    font-weight: 300;
+    letter-spacing: 2px;
+}
+
+.gen-z {
+    position: static;
+    height: 100vh;
+    /* text-align: center; */
+    background:
+        /* top, transparent black, faked with gradient */
+        linear-gradient(rgba(0, 0, 0, 0.7),
+            rgba(0, 0, 0, 0.7)),
+        /* bottom, image */
+        url(https://images.pexels.com/photos/1169754/pexels-photo-1169754.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.digital-services {
+    position: static;
+    /* height: 100vh; */
+    /* text-align: center; */
+    background:
+        /* top, transparent black, faked with gradient */
+        linear-gradient(rgba(0, 0, 0, 0.7),
+            rgba(0, 0, 0, 0.7)),
+        /* bottom, image */
+        url(https://images.pexels.com/photos/1169754/pexels-photo-1169754.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+body::-webkit-scrollbar {
+    width: 10px;
+    /* width of the entire scrollbar */
+}
+
+
+
+body::-webkit-scrollbar-thumb {
+    border-radius: 20px;
+    /* roundness of the scroll thumb */
+    border: 3px solid orange;
+    /* creates padding around scroll thumb */
+}

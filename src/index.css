@@ -1,0 +1,32 @@
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  /* letter-spacing: 2px; */
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  font-size: 0.9rem;
+  margin: 0;
+  box-sizing: 0;
+}
+
+.digital-card {
+  box-shadow: 0 4px 8px 0 rgba(148, 131, 131, 0.2), 0 6px 20px 0 rgba(177, 167, 167, 0.19);
+}
+
+
+/* .col-md-12{
+  position: relative;
+}
+.card-home{
+  position: absolute;
+  top: 50%;
+} */
+
+/* .navbar{
+  position: fixed;
+  top:0;
+} */
+/* styles.css */

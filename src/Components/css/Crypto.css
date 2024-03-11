@@ -1,0 +1,21 @@
+.crypto{
+    height: 100vh;
+
+    background:
+        linear-gradient(rgba(0, 0, 0, 0.7),
+            rgba(0, 0, 0, 0.7)),
+        /* bottom, image */
+        /* url(https://i.pinimg.com/564x/83/a5/d4/83a5d4d329ace4b153356a1f59ad38ad.jpg); */
+        
+       url(https://i.pinimg.com/564x/40/ab/0b/40ab0b5820aec8a562525dce25646673.jpg);
+        
+        background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.crypto-row{
+    padding-top: 15%;
+}
+/* .crypto img1{
+    opacity: 0.4;
+} */
